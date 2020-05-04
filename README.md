@@ -1,36 +1,11 @@
-For details: https://medium.com/@shaqian629/real-time-object-detection-in-flutter-b31c7ff9ef96
+#flutter Museum Quest wiht Real Time Object Detection
 
-# flutter_realtime_detection
+This way the Project from my First Hackathon with the Goal ot gamify a Museum.
+My Team and I build a quest Game. There are quest you halve to solve nad if you believe you know the answer you sould point the Camers at the Object and it gets detected.
 
-Real-time object detection in Flutter using [camera](https://pub.dartlang.org/packages/camera) and [tflite](https://pub.dartlang.org/packages/tflite) plugin. 
+My Part Was to Build the App.
 
-## Install 
+For Building the APP we used the tflite Plugin. 
+We wanted to train our own Neural Network but this didn't work out, so we used an already trained Network used to Detect normlal Things like Laptops etc. for demonstrating purposes.
 
-```
-flutter packages get
-```
 
-## Run
-
-```
-flutter run
-```
-
-## Models
-
-- Image Classification
-  - MobileNet
-
-- Object Detection
-  - SSD MobileNet
-  - Yolov2 Tiny
-
-- Pose Estimation 
-  - PoseNet
-
-## Previews
-
-![](preview.jpg) 
-
-"# hackathonX" 
-"# hackathonx2" 
